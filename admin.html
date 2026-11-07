@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+<a class="logo" href="index.html">💍 WedVenue</a>
+<nav><a href="index.html">Home</a><a href="halls.html">Halls</a><a href="booking.html">Book Hall</a><a href="payments.html">Payments</a><a href="admin.html">Admin</a></nav>
+</header>
+<main class="section">
+<div class="section-title left"><span class="eyebrow">ADMIN PANEL</span><h1>Reservation Management</h1><p>View and update booking statuses.</p></div>
+<div class="stats" id="stats"></div>
+<div class="table-wrap"><table><thead><tr><th>ID</th><th>Customer</th><th>Hall</th><th>Event</th><th>Date</th><th>Time</th><th>Amount</th><th>Status</th><th>Action</th></tr></thead><tbody id="bookingsBody"></tbody></table></div>
+</main>
+<footer>© 2026 WedVenue</footer>
+<script src="js/admin.js"></script>
+</body>
+</html>

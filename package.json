@@ -1,0 +1,13 @@
+{
+  "name": "wedding-hall-booking",
+  "version": "1.0.0",
+  "description": "Online Wedding Hall Booking Management System",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
+  }
+}
